@@ -1,0 +1,120 @@
+
+
+:root {
+  --ocean: #404bbf;
+  --white: #ffffff;
+  --navy-blue:#2E2F42;
+  --green:#31D0AA;
+  --slate:#434455;
+  --light-slate:#8E8F99;
+  --cornflower:#E7E9FC;
+  --cloud:#F4F4FD;
+  --navy-blue-modal:#ABACB3;
+  --grey:#6D6D7B;
+  --iris:#4D5AE5;
+  --dairy:#FCFCFC;
+
+
+
+  background-color: var(--white);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--slate);
+}
+
+main ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 24px;
+}
+
+.card-padding {
+  padding: 0px 16px 16px 16px;
+}
+
+button {
+  height: 48px;
+  width:fit-content;
+  padding: 12px 24px;
+  color: var(--cloud);
+  border: 1px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--ocean);
+}
+
+header section ul li a {
+  color: var(--slate);
+  text-decoration: none;
+}
+
+header section ul li a:hover {
+  color: var(--iris);
+  text-decoration: underline;
+}
+
+header section ul li a:focus {
+  color: var(--iris);
+}
+
+
+.header-links {
+  color: var(--navy-blue);
+  text-decoration: none;
+}
+
+.header-links:active,
+.active-link {
+color: var(--ocean);
+text-decoration: underline;
+}
+
+.studio-banner-text {
+  font-size: 56px;
+  color: var(--white);
+  line-height: 1.1;
+  text-align: center;
+  width: 500px;
+  margin-top: 0;
+}
+
+.studio-banner-container {
+  background-color: var(--navy-blue);
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.studio-banner-button {
+  background-color: var(--iris);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.logo, 
+.logo:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--iris);
+  cursor: pointer;
+  letter-spacing: 0.03em;
+}
+
+.logo::after { 
+  content: 'studio';
+  color: var(--navy-blue);
+}  
+
+
